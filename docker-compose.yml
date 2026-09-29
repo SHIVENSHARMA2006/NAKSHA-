@@ -1,0 +1,17 @@
+services:
+  naksha-app:
+    build:
+      context: .
+      dockerfile: Dockerfile.backend
+    container_name: naksha-ai
+    ports:
+      - "8000:8000"
+    environment:
+      - PYTHONUNBUFFERED=1
+      - CORS_ORIGINS=*
+    restart: unless-stopped
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/api/system"]
+      interval: 10s
+      timeout: 5s
+      retries: 3

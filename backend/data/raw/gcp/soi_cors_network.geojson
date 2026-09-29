@@ -1,0 +1,166 @@
+{
+  "type": "FeatureCollection",
+  "name": "Survey of India CORS Stations (SVAMITVA Network)",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "SOI-CORS-DL01",
+      "properties": {
+        "station_id": "SOI-CORS-DL01",
+        "station_code": "DLHI",
+        "station_name": "Survey of India Geodetic Pillar - Pusa Base",
+        "state": "NCT of Delhi",
+        "latitude": 28.62312,
+        "longitude": 77.21298,
+        "ellipsoidal_height_m": 258.42,
+        "receiver": "Trimble Alloy GNSS / Choke Ring Antenna",
+        "constellations": [
+          "GPS",
+          "GLONASS",
+          "Galileo",
+          "NavIC"
+        ],
+        "horizontal_accuracy_cm": 0.8,
+        "vertical_accuracy_cm": 1.4,
+        "status": "Operational / NRTK Active",
+        "authority": "Survey of India (SVAMITVA Cadastral Datum)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.21298,
+          28.62312,
+          258.42
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SOI-CORS-DL04",
+      "properties": {
+        "station_id": "SOI-CORS-DL04",
+        "station_code": "BKHM",
+        "station_name": "Survey of India CORS Pillar - Barakhamba Urban Datum",
+        "state": "NCT of Delhi",
+        "latitude": 28.62625,
+        "longitude": 77.21715,
+        "ellipsoidal_height_m": 259.18,
+        "receiver": "Leica GR50 / AR25.REV4 Antenna",
+        "constellations": [
+          "GPS",
+          "GLONASS",
+          "Galileo",
+          "NavIC"
+        ],
+        "horizontal_accuracy_cm": 1.1,
+        "vertical_accuracy_cm": 1.6,
+        "status": "Operational / NRTK Active",
+        "authority": "Survey of India (SVAMITVA Cadastral Datum)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.21715,
+          28.62625,
+          259.18
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SOI-CORS-DL07",
+      "properties": {
+        "station_id": "SOI-CORS-DL07",
+        "station_code": "CONP",
+        "station_name": "Survey of India CORS Pillar - Connaught South Hub",
+        "state": "NCT of Delhi",
+        "latitude": 28.6304,
+        "longitude": 77.2221,
+        "ellipsoidal_height_m": 260.05,
+        "receiver": "Trimble NetR9 / Zephyr Geodetic 3",
+        "constellations": [
+          "GPS",
+          "GLONASS",
+          "Galileo",
+          "NavIC"
+        ],
+        "horizontal_accuracy_cm": 0.9,
+        "vertical_accuracy_cm": 1.5,
+        "status": "Operational / NRTK Active",
+        "authority": "Survey of India (SVAMITVA Cadastral Datum)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.2221,
+          28.6304,
+          260.05
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SOI-CORS-HR02",
+      "properties": {
+        "station_id": "SOI-CORS-HR02",
+        "station_code": "GGON",
+        "station_name": "Survey of India CORS Station - Gurugram Central",
+        "state": "Haryana",
+        "latitude": 28.4595,
+        "longitude": 77.02664,
+        "ellipsoidal_height_m": 264.8,
+        "receiver": "Trimble Alloy GNSS",
+        "constellations": [
+          "GPS",
+          "GLONASS",
+          "Galileo",
+          "NavIC"
+        ],
+        "horizontal_accuracy_cm": 1.0,
+        "vertical_accuracy_cm": 1.8,
+        "status": "Operational / NRTK Active",
+        "authority": "Survey of India (SVAMITVA Cadastral Datum)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.02664,
+          28.4595,
+          264.8
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "SOI-CORS-UP05",
+      "properties": {
+        "station_id": "SOI-CORS-UP05",
+        "station_code": "NOID",
+        "station_name": "Survey of India CORS Station - Noida Sector 6",
+        "state": "Uttar Pradesh",
+        "latitude": 28.5821,
+        "longitude": 77.3184,
+        "ellipsoidal_height_m": 252.1,
+        "receiver": "Leica GR50",
+        "constellations": [
+          "GPS",
+          "GLONASS",
+          "Galileo",
+          "NavIC"
+        ],
+        "horizontal_accuracy_cm": 1.2,
+        "vertical_accuracy_cm": 1.9,
+        "status": "Operational / NRTK Active",
+        "authority": "Survey of India (SVAMITVA Cadastral Datum)"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          77.3184,
+          28.5821,
+          252.1
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,122 @@
+{
+  "type": "FeatureCollection",
+  "name": "Delhi Urban Corridor Road Network",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "DELHI-ROAD-01",
+      "properties": {
+        "road_id": "DELHI-ROAD-01",
+        "name": "Barakhamba Road (Major Arterial 45m)",
+        "class": "primary_arterial",
+        "width_m": 45.0,
+        "lanes": 6,
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.2105,
+            28.621
+          ],
+          [
+            77.2165,
+            28.625
+          ],
+          [
+            77.2225,
+            28.629
+          ],
+          [
+            77.226,
+            28.6315
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "DELHI-ROAD-02",
+      "properties": {
+        "road_id": "DELHI-ROAD-02",
+        "name": "Tolstoy Marg (Secondary Arterial 30m)",
+        "class": "secondary_arterial",
+        "width_m": 30.0,
+        "lanes": 4,
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.2135,
+            28.6275
+          ],
+          [
+            77.2195,
+            28.6245
+          ],
+          [
+            77.2245,
+            28.622
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "DELHI-ROAD-03",
+      "properties": {
+        "road_id": "DELHI-ROAD-03",
+        "name": "Kasturba Gandhi Marg (Access Corridor 24m)",
+        "class": "tertiary_corridor",
+        "width_m": 24.0,
+        "lanes": 4,
+        "surface": "asphalt"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.2155,
+            28.62
+          ],
+          [
+            77.2175,
+            28.626
+          ],
+          [
+            77.219,
+            28.631
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "DELHI-ROAD-04",
+      "properties": {
+        "road_id": "DELHI-ROAD-04",
+        "name": "Cadastral Revenue Service Lane 14 (12m)",
+        "class": "cadastral_access",
+        "width_m": 12.0,
+        "lanes": 2,
+        "surface": "paved_concrete"
+      },
+      "geometry": {
+        "type": "LineString",
+        "coordinates": [
+          [
+            77.216,
+            28.6255
+          ],
+          [
+            77.2185,
+            28.6275
+          ]
+        ]
+      }
+    }
+  ]
+}
